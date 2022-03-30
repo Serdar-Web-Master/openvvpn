@@ -1,0 +1,7 @@
+@media (max-width: 360px) {
+  .header {
+      width: 360px;
+      height: 600px;
+      background-color: aqua;
+  }
+}
