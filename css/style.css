@@ -19,6 +19,25 @@
   background: url("../img/open2.jpg") center/cover no-repeat;
   margin-bottom: 10px;
 }
+.main__img-block {
+  /* width: 15%; */
+  width: 0px;
+  animation-name: ok;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes ok  {
+0%{
+width: 0%;
+}
+100% {
+  width: 15%;
+}
+}
+.main__img {
+  width: 100%;
+}
 h1 {
   text-align: center;
   font-size: 35px;
