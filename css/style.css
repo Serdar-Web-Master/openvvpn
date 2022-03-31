@@ -1,5 +1,6 @@
-
 .wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 .header {
 }
@@ -8,4 +9,22 @@
 .main {
 }
 .footer {
+}
+.header {
+  width: 100%;
+  height: 20px;
+  /* background-color: aqua; */
+}
+.main {
+  width: 100%;
+  height: 400px;
+  background: url("../img/open2.jpg") center/cover no-repeat;
+}
+.sub-main-img {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
