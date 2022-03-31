@@ -87,11 +87,14 @@ h1 {
   justify-content: center;
   margin: 20px auto;
 }
-.user-info {
+.infa {
   margin: 10px 20px 10px 20px;
   font-size: 23px;
   color: #710cdf;
   line-height: 1.5;
+  padding: 10px;
+  /* width: 200px;
+  height: 50px; */
 }
 .user-sale {
   display: block;
@@ -101,6 +104,14 @@ h1 {
   padding: 20px;
 }
 .user-sale input {
+  display: block;
   border: 2px solid rgb(55, 0, 255);
   margin-bottom: 10px;
+}
+.button__sale {
+  padding: 10px 30px 10px 30px;
+  border: 2px solid black;
+  font-size: 20px;
+  margin: 10px 75px 0px 62px;
+  border-radius: 30px;
 }
