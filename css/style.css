@@ -19,21 +19,44 @@
   background: url("../img/open2.jpg") center/cover no-repeat;
   margin-bottom: 10px;
 }
-.main__img-block {
-  /* width: 15%; */
-  width: 0px;
+/* .main__img-block {
+  width: 0px; 
+} */
+.container {
+  position: relative;
+}
+.ok {
   animation-name: ok;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
 }
-@keyframes ok  {
-0%{
-width: 0%;
+@keyframes ok {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
+  }
 }
-100% {
-  width: 15%;
+.tiktok {
+  position: absolute;
+  margin: 150px 10px 10px -38px;
+
+  width: 0px;
+  animation-name: tiktok;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* animation-delay: 3s; */
 }
+@keyframes tiktok {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 25%;
+  }
 }
 .main__img {
   width: 100%;
