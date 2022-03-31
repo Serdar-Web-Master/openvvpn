@@ -7,12 +7,13 @@ user__button.addEventListener("click", displayBlock);
 
 function displayBlock() {
   const password = input__user.value;
-  if (password === 777) {
+  console.log(password);
+  if (password == 102010) {
     use__4.classList.add("block");
-  }
-  if (password === 888) {
+    return;
+  } else if (password == 201020) {
     use__5.classList.add("block");
   } else {
-    alert("pasword");
+    alert("Неправильный пароль");
   }
 }
