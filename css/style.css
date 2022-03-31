@@ -101,12 +101,18 @@ h1 {
   border: 2px solid red;
   margin: 10px 30px 0px 30px;
   font-size: 20px;
-  padding: 20px;
+  padding: 7px;
 }
 .user-sale input {
   display: block;
   border: 2px solid rgb(55, 0, 255);
   margin-bottom: 10px;
+  width: 280px;
+  height: 50px;
+}
+.user-sale input::placeholder {
+  color: blue;
+  font-size: 25px;
 }
 .button__sale {
   padding: 10px 30px 10px 30px;
