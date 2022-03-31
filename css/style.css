@@ -41,8 +41,10 @@ h1 {
   color: #710cdf;
 }
 .tarif-item button {
-  font-size: 25px;
+  font-size: 22px;
   border: 1px solid red;
+  background-color: #00ff32c7;
+  color: aliceblue;
   border-radius: 40px;
   padding: 10px 10px 10px 10px;
   overflow: hidden;
