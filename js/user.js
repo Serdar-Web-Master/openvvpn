@@ -6,5 +6,5 @@ user__button.addEventListener('click',f1);
 
 function f1(){
     console.log("click");
-    bizness__1.click()
+    bizness__1.classList.add('block')
 }
