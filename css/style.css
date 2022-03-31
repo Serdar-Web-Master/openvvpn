@@ -40,7 +40,7 @@ h1 {
   font-size: 30px;
   color: #710cdf;
 }
-.tarif-item button {
+a .button {
   font-size: 22px;
   border: 1px solid red;
   background-color: #00ff32c7;
