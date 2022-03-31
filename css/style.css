@@ -41,21 +41,56 @@
 }
 .tiktok {
   position: absolute;
-  margin: 150px 10px 10px -38px;
-
+  margin: 150px 10px 10px -22px;
   width: 0px;
   animation-name: tiktok;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
-  /* animation-delay: 3s; */
+  animation-delay: 3s;
 }
 @keyframes tiktok {
   0% {
     width: 0%;
   }
   100% {
-    width: 25%;
+    width: 15%;
+  }
+}
+.youtube {
+  position: absolute;
+  margin: 38px 10px 10px 215px;
+  width: 0px;
+  animation-name: youtube;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+@keyframes youtube {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
+  }
+}
+.telegram {
+  position: absolute;
+  margin: 487px 10px 10px 269px;
+  width: 0px;
+  animation-name: telegram;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+}
+@keyframes telegram {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 15%;
   }
 }
 .main__img {
