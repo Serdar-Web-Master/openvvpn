@@ -112,7 +112,8 @@ h1 {
 }
 .user-sale input::placeholder {
   color: blue;
-  font-size: 25px;
+  font-size: 22px;
+  padding-left: 10px;
 }
 .button__sale {
   padding: 10px 30px 10px 30px;
@@ -122,6 +123,9 @@ h1 {
   border-radius: 30px;
 }
 .use__4 {
+  display: none;
+}
+.use__5 {
   display: none;
 }
 .block {
