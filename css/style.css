@@ -12,15 +12,6 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-.container {
-}
-.main {
-}
-.tarify {
-  margin: 5px 10px 0px 10px;
-}
-.footer {
-}
 
 .main {
   width: 100%;
@@ -28,17 +19,31 @@
   background: url("../img/open2.jpg") center/cover no-repeat;
   margin-bottom: 10px;
 }
-/* .sub-main-img {
-  width: 100%;
-  height: 70px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 h1 {
   text-align: center;
   font-size: 35px;
   color: red;
   margin-bottom: 16px;
+}
+
+.tarify {
+  margin: 5px 20px 15px 20px;
+}
+
+.tarif-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tarif-item h2 {
+  font-size: 30px;
+  color: #710cdf;
+}
+.tarif-item button {
+  font-size: 25px;
+  border: 1px solid red;
+  border-radius: 40px;
+  padding: 10px 10px 10px 10px;
+}
+.footer {
 }
