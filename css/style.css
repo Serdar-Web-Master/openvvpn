@@ -121,9 +121,11 @@ h1 {
   margin: 10px 75px 0px 62px;
   border-radius: 30px;
 }
-.bizness__1 {
+.use__4 {
   display: none;
 }
 .block {
   display: block;
+  margin-top: 20px;
+  background-color: aqua;
 }
